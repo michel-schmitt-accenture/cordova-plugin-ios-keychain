@@ -1,0 +1,5 @@
+{
+  "name": "@journeyapps/cordova-plugin-ios-keychain",
+  "version": "3.0.1",
+  "description": "KeyChain Plugin for Cordova iOS"
+}
