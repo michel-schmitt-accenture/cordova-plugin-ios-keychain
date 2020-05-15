@@ -1,5 +1,29 @@
 {
-  "name": "@journeyapps/cordova-plugin-ios-keychain",
-  "version": "3.0.1",
-  "description": "KeyChain Plugin for Cordova iOS"
+  "name": "com-accenture-cas-plugins-keychainutil",
+  "version": "1.0.0",
+  "description": "Allows access to iOS KeyChain and Android Keystore from Cordova.",
+  "cordova": {
+    "id": "com-accenture-cas-plugins-keychainutil",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=2.2.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=2.2.0"
+    }
+  ],
+  "author": "Michael Kreitmann <michael.kreitmann@accenture.com>",
+  "license": "Proprietary"
 }
