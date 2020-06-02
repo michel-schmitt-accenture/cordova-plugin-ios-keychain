@@ -289,7 +289,7 @@ static NSString *SFHFKeychainUtilsErrorDomain = @"SFHFKeychainUtilsErrorDomain";
                         username,
                         serviceName,
                         kCFBooleanTrue,
-                        kCFBooleanTrue,
+                        kSecAttrSynchronizableAny,
                         nil];
     
     NSDictionary *query = [[NSDictionary alloc] initWithObjects: objects forKeys: keys];
