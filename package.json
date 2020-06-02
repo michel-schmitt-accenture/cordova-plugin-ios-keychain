@@ -1,6 +1,6 @@
 {
   "name": "com-accenture-cas-plugins-keychainutil",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allows access to iOS KeyChain and Android Keystore from Cordova.",
   "cordova": {
     "id": "com-accenture-cas-plugins-keychainutil",
